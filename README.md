@@ -13,15 +13,18 @@ I started building it on **14th August 2024**, aiming to do something meaningful
 - 🧠 **Early Education Section** – A short overview of Jinnah's early education (more will be added later).
 - 🎤 **Major Speeches** – Discover impactful speeches that shaped Pakistan’s journey.
 - 💬 **Famous Quotes** – Get inspired by Quaid’s timeless words.
+- 🖱️ **Interactive Design** – Headings and elements include hover animations for a modern user experience.
 - 📩 **Contact Form** – Reach out with your thoughts or messages of unity.
 - 💖 **Beautiful Design** – Built with love and minimal styling to keep the focus on content.
 
 > **Note:** Some buttons are already working, while others will be functional in future updates. Stay tuned for more improvements!
 
+
 ## 🛠️ Built With
 
 - **HTML & CSS** – The backbone of the site, written from scratch.
 - **Pure Code Only** – No frameworks, no libraries — just clean and raw HTML & CSS.
+- **Basic Animations & Hover Effects** – Added using only CSS for a more engaging experience.
 - **VS Code** – Code editor used throughout the project.
 - **Microsoft Edge** – For live preview while developing.
 - **Canva** – Used to design the hero image, logo, and other visuals.
