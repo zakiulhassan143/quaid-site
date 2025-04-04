@@ -1,0 +1,509 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+div{
+  text-align: center;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 7px;
+  position: relative;
+  color: darkgreen;
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    font-size:x-large;
+}
+
+/*BELOW THIS IS CODE FOR NAVIGATION BAR*/
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006400;
+  padding: 15px 20px;
+  border-bottom: 1px solid white;
+  border-top-left-radius: 50px ;
+  border-top-right-radius: 50px ;
+
+}
+
+.Logo {
+  height: 90px;
+  padding-left: 30px;
+  
+}
+
+.contact {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-right: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.donate-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: help;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.5s ease;
+  color: darkgreen;
+}
+
+.donate-button:hover {
+  background-color: darkgreen;
+  color: white;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 100px;
+}
+
+
+/* BELOW THIS IS CODE FOR QOUTE IMAGE  */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  padding: 0%;
+  margin: 0%;
+  display: block;
+  width: 100%;
+  height: inherit;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.container:hover .overlay {
+  opacity:1;
+}
+
+.text {
+  color: darkgreen;
+  font-size: 65px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: "Quintessential", serif;
+}
+
+
+/* BELOW THIS IS CODE FOR BIOGRAPHY SECTION */
+
+.bio-section {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.biography {
+  text-align: center;
+  font-family: "Quintessential", serif;
+  font-size: 20px;
+  color: darkgreen;
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+.biography-heading{
+  text-align: center;
+  font-family: "Quintessential", serif;
+  font-size: 90px;
+  color: darkgreen;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.biography-text{
+  text-align: center;
+  font-size: x-large;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bio-image{
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+  transition: all 0.5s ease;
+  object-fit: cover;
+}
+
+.bio-image:hover{
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  border-radius: 10%;
+}
+
+.readmore {
+  background-color: darkgreen;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: help;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  transition: all 0.5s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.readmore:hover{
+  background-color: white;
+  color: darkgreen;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+/*BELOW THIS IS THE CODE FOR SPEECHES SECTION */
+
+.carousel-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%; /* Adjust the width */
+  background-color: #fff;
+}
+
+.carousel-title {
+  font-size: 35px; /* Slightly larger font */
+  color: darkgreen;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-item {
+  min-width: 30%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.view-more {
+  margin-top: 15px;
+  background-color: #006400;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.view-more:hover {
+  background-color: #ffffff;
+  color: darkgreen;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+/* BELOW THIS IS CODE FOR TOP QOUTES SECTION */
+
+.famous-qoutes-title{
+  text-align: center;
+  font-family: "Quintessential", serif ;
+  font-size: 45px;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.famous-qoutes-bg{
+  background-color: darkgreen;
+  padding-bottom: 50px;
+  border-radius: 30px;
+}
+
+.fqoute{
+  text-align: center;
+  font-size: 25px;
+  background-color: darkgreen;
+  color: white;
+  width: 28%;
+  display: inline-block;
+  margin-right: 20px;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+.fqoute:hover{
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  background-color: #ffffff;
+  color: darkgreen;
+  border-radius: 8px;
+}
+
+.view-more-qoute {
+  margin-top: 15px;
+  background-color: #006400;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  margin-bottom: 100px;
+}
+
+.view-more-qoute:hover {
+  background-color: #ffffff;
+  color: darkgreen;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+/*BELOW THIS IS CODE FOR CONTACT FORM SECTION */
+
+.form-heading{
+  text-align: center;
+  font-family: "Quintessential", serif ;
+  font-size: 40px;
+  color:darkgreen;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.form-image, .form-div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.form-div {
+  text-align: left;
+  font-family: "Quintessential", serif ;
+  font-size: 20px;
+  width: 40%;
+  min-width: 300px;
+  background-color:rgb(255, 255, 255);
+  border-top-left-radius: 40px;
+  padding: 30px;
+}
+
+.textbox{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid darkgreen;
+  transition: all 0.5s ease;
+}
+
+.textbox:hover{
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+.subscribe{
+  margin-top: 15px;
+  background-color: white;
+  color: darkgreen;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.subscribe:hover {
+  background-color: darkgreen;
+  color: white;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+.form-image{
+  width: 300px;
+  height: 300px;
+  transition: all 0.5s ease;
+}
+
+.form-image:hover{
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  border-radius: 10%;
+}
+
+/*BELOW THIS IS CODE FOR MY PROFILE SECTION */
+
+
+
+/*BELOW THIS IS CODE FOR FOOTER SECTION */
+
+.footer{
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  border-top-left-radius: 50px ;
+  border-top-right-radius: 50px ;
+  transition: all 0.5s ease;
+}
+
+.footer:hover{
+  background-color: white;
+  color: darkgreen;
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .biography {
+    width: 40%;
+  }
+  
+  .bio-image {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .biography-heading {
+    font-size: 70px;
+  }
+  
+  .biography {
+    width: 45%;
+  }
+  
+  .bio-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .biography-heading {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .biography, .bio-image {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .biography {
+    text-align: center;
+  }
+  
+  .biography-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .biography-heading {
+    font-size: 40px;
+  }
+  
+  .biography, .bio-image {
+    width: 90%;
+  }
+  
+  .bio-image {
+    height: auto;
+  }
+  
+  .biography-text {
+    font-size: large;
+  }
+}
+
+/* Add smooth scrolling to the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add section padding for better scroll positioning */
+#contact-section {
+  scroll-margin-top: 100px; /* Adjust this value based on your header height */
+}
